@@ -30,7 +30,7 @@ TLS is most commonly associated with **port 443 for HTTPS** _(secure web browsin
 
 Critically, TLS is not bound to specific ports, organizations can configure it on virtually any port, making it a flexible and powerful protocol for securing a wide range of network communications.
 
-### Practical policy checklist
+## Practical policy checklist
 
 - Disable SSLv2/SSLv3 and TLS 1.0/1.1; allow only TLS 1.2+.
 - Prefer `ECDHE` key exchange with `AEAD` ciphers (`TLS_AES_*_GCM_SHA256/384`, `CHACHA20-POLY1305`).
